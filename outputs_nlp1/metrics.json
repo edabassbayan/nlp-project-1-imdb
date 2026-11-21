@@ -1,0 +1,50 @@
+{
+  "prompt_only": {
+    "samples": 100,
+    "attempted": 100,
+    "responses": 98,
+    "complete": true,
+    "sentiment_accuracy_percent": 89.0,
+    "sentiment_macro_f1": 0.9028,
+    "entity_micro_f1": 0.6302,
+    "raw_json_ok_percent": 85.0,
+    "final_json_ok_percent": 97.0,
+    "schema_ok_percent": 97.0,
+    "entity_counts": {
+      "movies": {
+        "tp": 70,
+        "fp": 52,
+        "fn": 52
+      },
+      "people": {
+        "tp": 143,
+        "fp": 63,
+        "fn": 83
+      }
+    }
+  },
+  "schema_constrained": {
+    "samples": 100,
+    "attempted": 100,
+    "responses": 100,
+    "complete": true,
+    "sentiment_accuracy_percent": 92.0,
+    "sentiment_macro_f1": 0.9197,
+    "entity_micro_f1": 0.6237,
+    "raw_json_ok_percent": 100.0,
+    "final_json_ok_percent": 100.0,
+    "schema_ok_percent": 100.0,
+    "entity_counts": {
+      "movies": {
+        "tp": 70,
+        "fp": 56,
+        "fn": 52
+      },
+      "people": {
+        "tp": 143,
+        "fp": 66,
+        "fn": 83
+      }
+    }
+  }
+}
